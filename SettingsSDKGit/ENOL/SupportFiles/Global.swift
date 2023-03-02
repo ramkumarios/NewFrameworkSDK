@@ -9,10 +9,10 @@
 import Foundation
 import UIKit
 
-class Global : NSObject {
+public class Global : NSObject {
     static let appName = "ENOL"
     
-    static let appDelegate = UIApplication.shared.delegate as! AppDelegate
+    public let appDelegate = UIApplication.shared.delegate as! AppDelegate
     
     static let BaseURL = "https://identity.enol.ai/" //Production
     static let BaseChatURL = "https://multipleapi.enol.ai/v2/" //Production Chat(happy path)

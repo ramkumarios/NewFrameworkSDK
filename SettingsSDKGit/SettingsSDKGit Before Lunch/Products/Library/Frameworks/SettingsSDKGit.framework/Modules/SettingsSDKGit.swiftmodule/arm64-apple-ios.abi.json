@@ -1,0 +1,236 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SettingsSDKGit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SettingsSDKGit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SettingsRow",
+        "printedName": "SettingsRow",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:image:showDisclosure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SettingsRow",
+                "printedName": "SettingsSDKGit.SettingsRow",
+                "usr": "s:14SettingsSDKGit0A3RowV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14SettingsSDKGit0A3RowV_5image14showDisclosureACSS_SSSbtcfc",
+            "mangledName": "$s14SettingsSDKGit0A3RowV_5image14showDisclosureACSS_SSSbtcfc",
+            "moduleName": "SettingsSDKGit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14SettingsSDKGit0A3RowV",
+        "mangledName": "$s14SettingsSDKGit0A3RowV",
+        "moduleName": "SettingsSDKGit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SettingsSDKGit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SettingsSDKGit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SettingsActionRow",
+        "printedName": "SettingsActionRow",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:image:action:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SettingsActionRow",
+                "printedName": "SettingsSDKGit.SettingsActionRow",
+                "usr": "s:14SettingsSDKGit0A9ActionRowV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14SettingsSDKGit0A9ActionRowV_5image6actionACSS_SSyyctcfc",
+            "mangledName": "$s14SettingsSDKGit0A9ActionRowV_5image6actionACSS_SSyyctcfc",
+            "moduleName": "SettingsSDKGit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14SettingsSDKGit0A9ActionRowV",
+        "mangledName": "$s14SettingsSDKGit0A9ActionRowV",
+        "moduleName": "SettingsSDKGit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SettingsSDKGit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SettingsSDKGit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SettingsNavigationRow",
+        "printedName": "SettingsNavigationRow",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:image:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SettingsNavigationRow",
+                "printedName": "SettingsSDKGit.SettingsNavigationRow",
+                "usr": "s:14SettingsSDKGit0A13NavigationRowV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14SettingsSDKGit0A13NavigationRowV_5imageACSS_SStcfc",
+            "mangledName": "$s14SettingsSDKGit0A13NavigationRowV_5imageACSS_SStcfc",
+            "moduleName": "SettingsSDKGit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14SettingsSDKGit0A13NavigationRowV",
+        "mangledName": "$s14SettingsSDKGit0A13NavigationRowV",
+        "moduleName": "SettingsSDKGit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/tvpc000013\/Documents\/SettingsSDKGit\/SettingsSDKGit\/SettingsRow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 565,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

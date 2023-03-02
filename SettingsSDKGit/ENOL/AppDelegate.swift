@@ -11,7 +11,7 @@ import AWSS3
 import GoogleMaps
 import GooglePlaces
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+public class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     

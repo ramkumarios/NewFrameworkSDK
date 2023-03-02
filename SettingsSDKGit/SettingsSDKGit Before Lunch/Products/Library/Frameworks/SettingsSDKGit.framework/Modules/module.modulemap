@@ -1,0 +1,11 @@
+framework module SettingsSDKGit {
+  umbrella header "SettingsSDKGit.h"
+
+  export *
+  module * { export * }
+}
+
+module SettingsSDKGit.Swift {
+  header "SettingsSDKGit-Swift.h"
+  requires objc
+}
