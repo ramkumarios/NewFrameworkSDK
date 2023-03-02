@@ -11,7 +11,22 @@
 		F77AFB1729B0772B0084FB7B /* SettingsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77AFB1629B0772B0084FB7B /* SettingsRow.swift */; };
 		F77AFB1929B077520084FB7B /* SettingsActionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77AFB1829B077520084FB7B /* SettingsActionRow.swift */; };
 		F77AFB1B29B0777C0084FB7B /* SettingsNavigationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77AFB1A29B0777C0084FB7B /* SettingsNavigationRow.swift */; };
+		F7BC978929B08BC10021D3B4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F7BC977E29B08BC10021D3B4 /* Podfile */; };
+		F7BC978A29B08BC10021D3B4 /* ENOL in Resources */ = {isa = PBXBuildFile; fileRef = F7BC977F29B08BC10021D3B4 /* ENOL */; };
+		F7BC978B29B08BC10021D3B4 /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = F7BC978629B08BC10021D3B4 /* Podfile.lock */; };
+		F7BC978C29B08BC10021D3B4 /* Pods in Resources */ = {isa = PBXBuildFile; fileRef = F7BC978729B08BC10021D3B4 /* Pods */; };
+		F7BC978D29B08BC10021D3B4 /* ENOL.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = F7BC978829B08BC10021D3B4 /* ENOL.xcworkspace */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7BC978429B08BC10021D3B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7BC978029B08BC10021D3B4 /* ENOL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F774BD232990FCDD00FF4ECD;
+			remoteInfo = ENOL;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F77AFB0C29B0771A0084FB7B /* SettingsSDKGit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SettingsSDKGit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +34,12 @@
 		F77AFB1629B0772B0084FB7B /* SettingsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRow.swift; sourceTree = "<group>"; };
 		F77AFB1829B077520084FB7B /* SettingsActionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsActionRow.swift; sourceTree = "<group>"; };
 		F77AFB1A29B0777C0084FB7B /* SettingsNavigationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsNavigationRow.swift; sourceTree = "<group>"; };
+		F7BC977E29B08BC10021D3B4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		F7BC977F29B08BC10021D3B4 /* ENOL */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ENOL; sourceTree = "<group>"; };
+		F7BC978029B08BC10021D3B4 /* ENOL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ENOL.xcodeproj; sourceTree = "<group>"; };
+		F7BC978629B08BC10021D3B4 /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
+		F7BC978729B08BC10021D3B4 /* Pods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pods; sourceTree = "<group>"; };
+		F7BC978829B08BC10021D3B4 /* ENOL.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = ENOL.xcworkspace; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,12 +72,26 @@
 		F77AFB0E29B0771A0084FB7B /* SettingsSDKGit */ = {
 			isa = PBXGroup;
 			children = (
+				F7BC977F29B08BC10021D3B4 /* ENOL */,
+				F7BC978029B08BC10021D3B4 /* ENOL.xcodeproj */,
+				F7BC978829B08BC10021D3B4 /* ENOL.xcworkspace */,
+				F7BC977E29B08BC10021D3B4 /* Podfile */,
+				F7BC978629B08BC10021D3B4 /* Podfile.lock */,
+				F7BC978729B08BC10021D3B4 /* Pods */,
 				F77AFB0F29B0771A0084FB7B /* SettingsSDKGit.h */,
 				F77AFB1629B0772B0084FB7B /* SettingsRow.swift */,
 				F77AFB1829B077520084FB7B /* SettingsActionRow.swift */,
 				F77AFB1A29B0777C0084FB7B /* SettingsNavigationRow.swift */,
 			);
 			path = SettingsSDKGit;
+			sourceTree = "<group>";
+		};
+		F7BC978129B08BC10021D3B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC978529B08BC10021D3B4 /* ENOL.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,6 +152,12 @@
 			mainGroup = F77AFB0229B0771A0084FB7B;
 			productRefGroup = F77AFB0D29B0771A0084FB7B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F7BC978129B08BC10021D3B4 /* Products */;
+					ProjectRef = F7BC978029B08BC10021D3B4 /* ENOL.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F77AFB0B29B0771A0084FB7B /* SettingsSDKGit */,
@@ -124,11 +165,26 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		F7BC978529B08BC10021D3B4 /* ENOL.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ENOL.app;
+			remoteRef = F7BC978429B08BC10021D3B4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		F77AFB0A29B0771A0084FB7B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7BC978B29B08BC10021D3B4 /* Podfile.lock in Resources */,
+				F7BC978D29B08BC10021D3B4 /* ENOL.xcworkspace in Resources */,
+				F7BC978A29B08BC10021D3B4 /* ENOL in Resources */,
+				F7BC978C29B08BC10021D3B4 /* Pods in Resources */,
+				F7BC978929B08BC10021D3B4 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +327,7 @@
 		F77AFB1429B0771A0084FB7B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -279,6 +336,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -290,7 +348,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.techvantage.SettingsSDKGit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -301,6 +359,7 @@
 		F77AFB1529B0771A0084FB7B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -309,6 +368,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -320,7 +380,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.techvantage.SettingsSDKGit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
